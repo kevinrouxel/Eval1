@@ -49,27 +49,34 @@ header li a {
 /* **********************IMAGE PRINCIPALE*********************** */
 #ImagePrincipale {
     padding-top: 60px;
-    background: url(media/ImagePrincipale.jpg) no-repeat fixed 50% 50%;
+    background: url(media/ImagePrincipale.jpg) no-repeat fixed 50% 50%; 
     background-size: cover;
     height: 799px;        
 }
-@media (max-width: 400px) {
+@media screen and (min-width: 992px){
     #ImagePrincipale {
-        background-image: url(media/ImagePrincipalemedium.jpg);
-        height: 300px;
+        padding-top: 60px;
+        background: url(media/ImagePrincipale.jpg) no-repeat fixed;
+        background-size: cover;
     }
 }
-@media (max-width: 150px) {
+@media screen and (min-width: 600px) {
+    #ImagePrincipale {
+        background-image: url(media/ImagePrincipalemedium.jpg);
+        height: 600px;
+    }
+}
+@media screen and (max-width: 600px) {
     #ImagePrincipale {
         background-image: url(media/ImagePrincipalesmall.jpg);
-        height: 100px;
+        height: 600px;
     }
 }
 h1 { 
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: #ffd5e0;
-    font-size: 6rem;
+    font-size: 5rem;
     margin-top: 80px;
     text-shadow: 3px 3px 2px black;
     
@@ -78,7 +85,7 @@ h3 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: #ffd5e0;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 3px 3px 2px black;
 }
 /* ****************************PRESENTATION********************** */
@@ -87,7 +94,7 @@ h3 {
     padding: 10px 0px 100px 0px;
 }
 #texteIntro {
-    padding: 0px 20%
+    padding: 0px 5%
 }
 #lescreations {
     font-family: 'Dancing Script', cursive;
