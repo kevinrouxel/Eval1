@@ -53,23 +53,16 @@ header li a {
     background-size: cover;
     height: 799px;        
 }
-@media screen and (min-width: 992px){
-    #ImagePrincipale {
-        padding-top: 60px;
-        background: url(media/ImagePrincipale.jpg) no-repeat fixed;
-        background-size: cover;
-    }
-}
 @media screen and (min-width: 600px) {
     #ImagePrincipale {
-        background-image: url(media/ImagePrincipalemedium.jpg);
-        height: 600px;
+        background-image: url(media/ImagePrincipalesmall.jpg);
+        
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 200px) {
     #ImagePrincipale {
         background-image: url(media/ImagePrincipalesmall.jpg);
-        height: 600px;
+        
     }
 }
 h1 { 
