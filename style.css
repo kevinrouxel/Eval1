@@ -55,7 +55,7 @@ header li a {
 }
 @media screen and (max-width: 600px) {
     #ImagePrincipale {
-        background-image: url(media/ImagePrincipalesmall.jpg);
+        background-image: url(media/ImagePrincipalesmall++.jpg);
         
     }
 }
