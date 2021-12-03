@@ -198,6 +198,7 @@ h2 {
     font-size: 2rem;
 }
 p {
+    padding-left: auto ;
     font-family: 'Advent Pro', sans-serif;
     text-transform: none;
     text-align: center;
