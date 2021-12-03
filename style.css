@@ -193,9 +193,6 @@ button:hover {
     margin: auto;
     justify-content: center;
 }
-#eventannuel {
-   
-}
 h2 {
     font-family: 'Dancing Script', cursive;
     text-transform: uppercase;
@@ -208,7 +205,7 @@ p {
     text-transform: none;
     text-align: center;
 }
-#galerie {
+#galerie img {
     border-radius: 5px;
     display: block;
     margin-left: auto;
